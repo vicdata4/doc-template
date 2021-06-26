@@ -2,17 +2,25 @@
   <div>
     <h1 class="title">Quick Start</h1>
     <p class="info-text mb" tabindex="0">
-      User experience (UX) is a
-      <b>person's emotions and attitudes about using a particular product</b>,
-      system or service. It includes the practical, experiential, affective,
-      meaningful and valuable aspects of human–computer interaction and product
-      ownership.
+      Before we start using this libray, it is important to know the most important aspects about web components.
+    </p>
+    <p class="info-text" tabindex="0">
+      Web components are a set of web platform APIs that allow you to create new <i>custom</i>, <i>reusable</i>, <i>encapsulated</i> <b>HTML tags</b> to use in web pages and web apps. Custom components and widgets build on the Web Component standards, will work across modern browsers, and <b>can be used with any JavaScript library or framework</b> that works with HTML.
+    </p>
+    <p class="info-text" tabindex="0">
+      <b>Web components</b> are based on existing web standards. Features to support web components are currently being added to the HTML and DOM specs, letting web developers easily extend HTML with new elements with encapsulated styling and custom behavior.
+    </p>
+    <p class="info-text mb" tabindex="0">
+      If you want to learn more about web components specifications, please follow this <a id="buttons" href="https://www.webcomponents.org/introduction" target="_blank">link</a>
+    </p>
+    <p class="info-text mb" tabindex="0">
+      Now you are ready to start using this library, so follow the next steps to know how to install and import a seed catalog component via npm:
     </p>
     <p class="info-text sm" tabindex="0">Install via npm</p>
     <pre><code class="language-bash">{{`npm i @seed-catalog/modal`}}</code></pre>
     <p class="info-text sm" tabindex="0">Import to your .js file</p>
     <pre><code class="language-js">{{`import '@seed-catalog/modal';`}}</code></pre>
-    <p class="info-text sm" tabindex="0">Add to your .html</p>
+    <p class="info-text sm" tabindex="0">Add to your html template</p>
     <pre class="line-numbers language-markup">
   <code>&lt;seed-modal&gt;</code>
     <code>&lt;button slot="button"&gt;</code>Open modal<code>&lt;/button&gt;</code>
@@ -53,7 +61,7 @@
       </div>
     </seed-modal>
     <p class="info-text sm" tabindex="0">
-      Lear more about seed-modal
+      Learn more about seed-modal
       <NuxtLink id="buttons" to="/seed/modal">here</NuxtLink>
     </p>
   </div>

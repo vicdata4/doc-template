@@ -76,10 +76,17 @@ html {
   border-bottom: 1px solid #975bb6;
   margin-bottom: 50px;
   padding-bottom: 20px;
+  width: 100%
 }
 
  .language-bash, .language-js, .language-markup {
    /*background-color: rgb(236, 240, 241) !important;*/
  }
+
+ @media (min-width: 1024px) {
+  .title {
+    width: 50%
+  }
+}
 
 </style>

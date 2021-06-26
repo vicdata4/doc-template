@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Modal</h1>
+    <h1 class="title">Modal</h1>
   </div>
 </template>
 
