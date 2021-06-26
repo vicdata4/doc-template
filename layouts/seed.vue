@@ -83,6 +83,11 @@ html {
    /*background-color: rgb(236, 240, 241) !important;*/
  }
 
+ .prop-light {
+   color: #0677aa;
+   font-size: 17px;
+ }
+
  @media (min-width: 1024px) {
   .title {
     width: 50%

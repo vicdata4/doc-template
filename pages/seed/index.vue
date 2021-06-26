@@ -18,7 +18,7 @@
     </p>
     <p class="info-text sm" tabindex="0">Install via npm</p>
     <pre><code class="language-bash">{{`npm i @seed-catalog/modal`}}</code></pre>
-    <p class="info-text sm" tabindex="0">Import to your .js file</p>
+    <p class="info-text sm" tabindex="0">Import</p>
     <pre><code class="language-js">{{`import '@seed-catalog/modal';`}}</code></pre>
     <p class="info-text sm" tabindex="0">Add to your html template</p>
     <pre class="line-numbers language-markup">
@@ -68,13 +68,13 @@
 </template>
 
 <script>
-import "static/utils/prism";
 import "@seed-catalog/modal";
+import { pageInit } from '/components/utils/functions';
 
 export default {
-  layout: "seed",
+  layout: 'seed',
   mounted() {
-    Prism.highlightAll();
+    pageInit();
   },
 };
 </script>

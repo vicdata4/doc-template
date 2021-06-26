@@ -4,13 +4,15 @@
       <label><a href="/seed">Quick Start</a></label>
       <label>Styles</label>
       <li>
-        <NuxtLink class="link" id="buttons" to="/seed/buttons">Buttons</NuxtLink>
+        <NuxtLink class="link" to="/seed/buttons">Buttons</NuxtLink>
       </li>
-      <li><NuxtLink class="link" id="icons" to="/seed/icons">Icons</NuxtLink></li>
+      <li><NuxtLink class="link" to="/seed/icons">Icons</NuxtLink></li>
       <li id="groups">Groups</li>
       <label>Components</label>
-      <li id="carousel">Carousel</li>
-      <li id="modal"><NuxtLink class="link" id="icons" to="/seed/modal">Modal</NuxtLink></li>
+      <li><NuxtLink class="link" to="/seed/carousel">Carousel</NuxtLink></li>
+      <li id="modal">
+        <NuxtLink class="link" id="icons" to="/seed/modal">Modal</NuxtLink>
+      </li>
       <li id="dropdown">Dropdown</li>
       <li id="collapse">Collapse</li>
       <li id="ring">Progress ring</li>

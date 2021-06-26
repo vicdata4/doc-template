@@ -22,8 +22,12 @@
     font-weight: 400;
 }
 
-.info-text.mb {
+.mb {
     margin-bottom: 50px;
+}
+
+.mt {
+    margin-top: 50px;
 }
 
 .info-text.center {

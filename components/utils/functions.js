@@ -9,3 +9,8 @@ import 'prismjs/components/prism-markup-templating';
 import 'prismjs/components/prism-php';
 import 'prismjs/components/prism-scss';
 import 'prismjs/themes/prism.css';
+
+export const pageInit = () => {
+    document.querySelector('.section-container').scrollTo({ top: 0, behavior: 'smooth' });
+    Prism.highlightAll();
+};
