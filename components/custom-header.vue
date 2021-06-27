@@ -10,6 +10,7 @@
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
+          class="github-icon"
           viewBox="0 0 24 24"
         >
           <path
@@ -47,8 +48,12 @@ header {
 
   background-color: black;
   color: white;
-  padding: 10px 24px;
+  padding: 8px 24px;
   border-radius: 4px;
+}
+
+.github-icon {
+  display: block;
 }
 
 .menu-link:hover {
@@ -58,6 +63,10 @@ header {
 .header-menu {
   display: flex;
   align-items: center;
+}
+
+.header-icon {
+  display: block;
 }
 
 .logo {

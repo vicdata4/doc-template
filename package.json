@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "@seed-catalog/carousel": "^1.0.8",
+    "@seed-catalog/collapse": "^1.0.1",
+    "@seed-catalog/dropdown": "^1.0.2",
     "@seed-catalog/modal": "^1.2.1",
-    "@seed-catalog/stepper": "^1.0.1",
+    "@seed-catalog/progress-ring": "^1.2.0",
+    "@seed-catalog/stepper": "^1.0.3",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3"
   },

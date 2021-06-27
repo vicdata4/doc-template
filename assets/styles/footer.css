@@ -4,7 +4,7 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 30px 40px;
-    background-color: var(--header-background);
+    background-color: #eeeded;
 }
 
 .footer-list {
@@ -20,13 +20,13 @@ footer {
 }
 
 .footer-link {
-    color: #fff;
+    color: rgb(59, 59, 59);
     text-decoration: none;
     letter-spacing: 1.3px;
 }
 
-.footer-link.title {
-    color: #f9ba02;
+.footer-link.t {
+    color: #1d515a;
     margin: 15px 0;
     font-weight: 400;
     font-size: 15px;

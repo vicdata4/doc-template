@@ -2,26 +2,26 @@
   <aside>
     <ul>
       <label><a href="/seed">Quick Start</a></label>
+      <!--
       <label>Styles</label>
       <li>
         <NuxtLink class="link" to="/seed/buttons">Buttons</NuxtLink>
       </li>
       <li><NuxtLink class="link" to="/seed/icons">Icons</NuxtLink></li>
-      <li id="groups">Groups</li>
+      <li>Groups</li>
+      -->
       <label>Components</label>
       <li><NuxtLink class="link" to="/seed/carousel">Carousel</NuxtLink></li>
-      <li id="modal">
-        <NuxtLink class="link" id="icons" to="/seed/modal">Modal</NuxtLink>
+      <li>
+        <NuxtLink class="link" to="/seed/modal">Modal</NuxtLink>
       </li>
-      <li id="dropdown">Dropdown</li>
-      <li id="collapse">Collapse</li>
-      <li id="ring">Progress ring</li>
-      <li id="stepper">Stepper</li>
-      <li id="player">Video player</li>
+      <li><NuxtLink class="link" to="/seed/dropdown">Dropdown</NuxtLink></li>
+      <li><NuxtLink class="link" to="/seed/ring">Ring</NuxtLink></li>
+      <li><NuxtLink class="link" to="/seed/stepper">Stepper</NuxtLink></li>
       <label>Related</label>
-      <li>Lit</li>
-      <li>Web Components</li>
-      <li>Github</li>
+      <li><a class="link" target="_blank" href="https://lit.dev/">Lit</a></li>
+      <li><a class="link" target="_blank" href="https://www.webcomponents.org/introduction">Web Components</a></li>
+      <li><a class="link" target="_blank" href="https://github.com/vicdata4/seed-catalog">Github</a></li>
     </ul>
   </aside>
 </template>

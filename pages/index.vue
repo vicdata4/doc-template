@@ -6,7 +6,7 @@
           <div class="information">
             <img class="main-icon" src="../assets/seed-logo.png" width="400">
             <p class="info-text center" tabindex="0">
-             An open-source <b>web-components</b> library which contains CSS-styles and standards-based web templates such as buttons, modals, dropdowns and other interface components.
+             An open-source <b>web-components</b> library which contains CSS-styles and standards-based web templates such as carousel, modal, dropdown and other interface components.
               </p>
               <NuxtLink to="/seed" class="menu-start">Get Started v1.0</NuxtLink>
             <div style="margin: 60px 0;">
@@ -17,7 +17,7 @@
         <section aria-label="Web design disciplines" tabindex="0">
           <div class="areas">
             <article class="area-card">
-              <h2 class="area-title" tabindex="0">Styles</h2>
+              <h2 class="area-title" tabindex="0">Custom Elements</h2>
               <p class="info-text" tabindex="0">
                 User experience (UX) is a <b>person's emotions and attitudes about using a particular product</b>, system or service. 
                 It includes the practical, experiential, affective, meaningful and valuable aspects of human–computer interaction 
@@ -41,7 +41,7 @@
         </section>
         <footer aria-label="Footer section" tabindex="0">
           <ul class="footer-list">
-            <li class="footer-link title" aria-label="Menu links" tabindex="0">CONTINENTS</li>
+            <li class="footer-link t" aria-label="Menu links" tabindex="0">CONTINENTS</li>
             <li><a href="#" class="footer-link">Africa</a></li>
             <li><a href="#" class="footer-link">Europe</a></li>
             <li><a href="#" class="footer-link">Asia</a></li>
@@ -50,18 +50,18 @@
             <li><a href="#" class="footer-link">Oceania</a></li>
           </ul>
           <ul class="footer-list">
-            <li class="footer-link title" aria-label="Technologies links" tabindex="0">TECHNOLOGIES</li>
+            <li class="footer-link t" aria-label="Technologies links" tabindex="0">TECHNOLOGIES</li>
             <li><a href="#" class="footer-link">HTML5</a></li>
             <li><a href="#" class="footer-link">CSS3</a></li>
             <li><a href="#" class="footer-link">Javascript</a></li>
           </ul>
           <ul class="footer-list">
-            <li class="footer-link title" aria-label="Dependencies links" tabindex="0">DEPENDENCIES</li>
+            <li class="footer-link t" aria-label="Dependencies links" tabindex="0">DEPENDENCIES</li>
             <li><a href="#" class="footer-link">LitElement</a></li>
             <li><a href="#" class="footer-link">Vaadin</a></li>
           </ul>
           <ul class="footer-list">
-            <li class="footer-link title" aria-label="Recomendations links" tabindex="0">RELATED</li>
+            <li class="footer-link t" aria-label="Recomendations links" tabindex="0">RELATED</li>
             <li><a href="#" class="footer-link">Git</a></li>
             <li><a href="#" class="footer-link">Flex-box</a></li>
             <li><a href="#" class="footer-link">Grid Layout</a></li>
@@ -69,11 +69,6 @@
             <li><a href="#" class="footer-link">Web Components</a></li>
             <li><a href="#" class="footer-link">Npm</a></li>
           </ul>
-          <div class="footer-line" aria-label="Website links" tabindex="0">
-            <a href="#" class="footer-link">dsign.website</a>
-            <a href="#" class="footer-link">OpenSource</a>
-            <a href="#" class="footer-link">github.com/vicdata4</a>
-          </div>
         </footer>
       </main>
   </div>

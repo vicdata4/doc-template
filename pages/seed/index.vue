@@ -2,7 +2,7 @@
   <div>
     <h1 class="title">Quick Start</h1>
     <p class="info-text mb" tabindex="0">
-      Before we start using this libray, it is important to know the most important aspects about web components.
+      Before we start using this library, it is important to know the most important aspects about web components.
     </p>
     <p class="info-text" tabindex="0">
       Web components are a set of web platform APIs that allow you to create new <i>custom</i>, <i>reusable</i>, <i>encapsulated</i> <b>HTML tags</b> to use in web pages and web apps. Custom components and widgets build on the Web Component standards, will work across modern browsers, and <b>can be used with any JavaScript library or framework</b> that works with HTML.
