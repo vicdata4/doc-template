@@ -1,6 +1,6 @@
 <template>
   <div>
-    <custom-header></custom-header>
+    <custom-header v-bind:homeMenu="true"></custom-header>
     <main>
       <section aria-label="About dsign project" tabindex="0">
           <div class="information">

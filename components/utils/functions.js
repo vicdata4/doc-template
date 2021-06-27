@@ -11,6 +11,12 @@ import 'prismjs/components/prism-scss';
 import 'prismjs/themes/prism.css';
 
 export const pageInit = () => {
+    const menu = document.querySelector('.menu-bar');
+    
+    if(menu) {
+        menu.classList.remove('show');
+    }
+
     document.querySelector('.section-container').scrollTo({ top: 0, behavior: 'smooth' });
     Prism.highlightAll();
 };

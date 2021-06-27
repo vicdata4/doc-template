@@ -2,7 +2,7 @@
   <div>
     <custom-header></custom-header>
     <div class="page-container">
-        <custom-aside></custom-aside>
+        <custom-aside class="menu-bar"></custom-aside>
         <div class="section-container">
           <Nuxt />
         </div>
@@ -53,13 +53,13 @@ html {
 
 .page-container {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 1fr;
   padding-top: var(--header-height);
   overflow: hidden;
 }
 
 .section-container {
-  padding: 100px 80px;
+  padding: 50px 30px;
   height: calc(100vh - var(--header-height));
   overflow: auto;
 }
@@ -88,9 +88,35 @@ html {
    font-size: 17px;
  }
 
+
+ .menu-bar {
+   position: absolute;
+  display: none;
+  }
+
+  .menu-bar.show {
+    display: block;
+  }
+
+ @media (min-width: 700px) {  
+}
+
  @media (min-width: 1024px) {
   .title {
     width: 50%
+  }
+
+  .menu-bar {
+    position: relative;
+    display: block;
+  }
+
+  .page-container {
+    grid-template-columns: 300px 1fr;
+  }
+
+  .section-container {
+    padding: 100px 80px;
   }
 }
 
