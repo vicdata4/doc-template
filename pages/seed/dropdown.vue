@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="title">Dropdown</h1>
-    <p class="info-text sm" tabindex="0">Install via npm</p>
+    <p class="info-text sm" tabindex="0">Install via <a href="https://www.npmjs.com/package/@seed-catalog/dropdown" target="_blank">npm</a></p>
     <pre><code class="language-bash">{{`npm i @seed-catalog/dropdown`}}</code></pre>
     <p class="info-text sm" tabindex="0">Import</p>
     <pre><code class="language-js">{{`import '@seed-catalog/dropdown';`}}</code></pre>

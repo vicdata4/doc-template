@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="title">Progress ring</h1>
-    <p class="info-text sm" tabindex="0">Install via npm</p>
+    <p class="info-text sm" tabindex="0">Install via <a href="https://www.npmjs.com/package/@seed-catalog/progress-ring" target="_blank">npm</a></p>
     <pre><code class="language-bash">{{`npm i @seed-catalog/progress-ring`}}</code></pre>
     <p class="info-text sm" tabindex="0">Import</p>
     <pre><code class="language-js">{{`import '@seed-catalog/progress-ring';`}}</code></pre>
