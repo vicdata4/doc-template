@@ -1,7 +1,7 @@
 <template>
   <aside>
     <ul>
-      <label><a href="/seed">Quick Start</a></label>
+      <label><NuxtLink class="link" to="/seed">Quick Start</NuxtLink></label>
       <!--
       <label>Styles</label>
       <li>
@@ -64,6 +64,10 @@ ul > label {
 ul > label > a {
   color: var(--purple-color);
   text-decoration: none;
+}
+
+ul > label > .link {
+  color: var(--purple-color) !important;
 }
 
 ul > label:first-child {
