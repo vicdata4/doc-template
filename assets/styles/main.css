@@ -57,13 +57,19 @@
 
     .menu-start {
         text-decoration: none;
-        background-color: #9859b6;
-        border-bottom: 4px solid #ff00ee;
+        background-color: #0e9bed;
+        border: 1px solid #0e9bed;
         color: white;
         padding: 16px 30px;
         border-radius: 3px;
         font-weight: 500;
         margin-top: 30px;
+    }
+
+    .menu-start:hover {
+        background-color: #fbfbfb;
+        border: 1px solid #0e9bed;
+        color: #0e9bed;
     }
 
     .scrolltop-arrow {

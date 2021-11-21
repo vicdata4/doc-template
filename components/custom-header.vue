@@ -56,7 +56,7 @@ header {
   height: var(--header-height);
 
   background-color: white;
-  border-bottom: 4px solid var(--purple-color);
+  border-bottom: 4px solid rgb(235, 235, 235);
 }
 
 .menu-link {

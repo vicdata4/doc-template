@@ -6,7 +6,7 @@
           <div class="information">
             <img class="main-icon" src="../assets/seed-logo.png" width="400">
             <p class="info-text center" tabindex="0">
-             An open-source <b>web-components</b> library which contains standards-based web templates such as carousel, modal, dropdown and other interface components.
+             An open-source <b>web-components</b> library. It contains CSS-styles and standards-based web templates such as buttons, modals, dropdowns and other interface components.
               </p>
               <NuxtLink to="/seed" class="menu-start">Get Started v1.0</NuxtLink>
             <div style="margin: 60px 0;">
